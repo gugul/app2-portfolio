@@ -15,4 +15,4 @@ From: {user_email}
     button = streamlit.form_submit_button("Submit")
     if button:
         send_mail(message)
-        streamlit.info("Your email was sent succesfully")
+        streamlit.info("Your email was sent successfully")
